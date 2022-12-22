@@ -1,3 +1,0 @@
-Compression yes
-ForwardX11 yes
-Ciphers blowfish-cbc,arcfour

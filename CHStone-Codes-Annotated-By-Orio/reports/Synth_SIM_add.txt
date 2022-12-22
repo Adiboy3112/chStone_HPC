@@ -1,3 +1,0 @@
-/home/legup/legup-4.0/examples/chstone/adpcm/orio/adpcm
-
-Open "transcript" file here
