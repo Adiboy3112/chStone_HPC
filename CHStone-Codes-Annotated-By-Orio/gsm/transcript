@@ -1,0 +1,12 @@
+# vsim -c -do "run 7000000000000000ns; exit;" work.main_tb 
+# Start time: 18:18:02 on May 06,2017
+# Loading work.main_tb
+# Loading work.top
+# Loading work.main
+# Loading work.rom_dual_port
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ram_dual_port
+# ** Warning: Design size of 10772 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# run 7000000000000000ns
+# Break key hit
