@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:22 2022
+
+
+ Performance counter stats for './dfmul':
+
+            12,703      cache-misses                                                  (80.36%)
+          9,85,459      instructions              #    0.95  insn per cycle         
+             5,745      branch-misses             #    2.08% of all branches        
+          7,17,392      ref-cycles                                                  
+         10,32,270      cpu-cycles                                                  
+                60      page-faults                                                 
+               891      LLC-load-misses                                             
+            15,159      L1-dcache-load-misses                                       
+          2,76,180      branches                                                      (19.64%)
+
+       0.000536239 seconds time elapsed
+
+       0.000599000 seconds user
+       0.000000000 seconds sys
+
+

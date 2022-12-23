@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:22 2022
+
+
+ Performance counter stats for './sha_driver':
+
+             9,919      cache-misses                                                
+         20,69,336      instructions              #    1.49  insn per cycle         
+             5,257      branch-misses             #    0.00% of all branches        
+          9,36,104      ref-cycles                                                  
+         13,84,303      cpu-cycles                                                  
+                59      page-faults                                                 
+               738      LLC-load-misses                                             
+            14,492      L1-dcache-load-misses                                       
+     <not counted>      branches                                                      (0.00%)
+
+       0.000625058 seconds time elapsed
+
+       0.000688000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:21 2022
+
+
+ Performance counter stats for './dfadd':
+
+            12,146      cache-misses                                                
+         11,88,424      instructions              #    0.98  insn per cycle         
+             6,390      branch-misses             #    0.00% of all branches        
+          8,23,368      ref-cycles                                                  
+         12,17,808      cpu-cycles                                                  
+                57      page-faults                                                 
+               952      LLC-load-misses                                             
+            15,975      L1-dcache-load-misses                                       
+     <not counted>      branches                                                      (0.00%)
+
+       0.000577730 seconds time elapsed
+
+       0.000643000 seconds user
+       0.000000000 seconds sys
+
+

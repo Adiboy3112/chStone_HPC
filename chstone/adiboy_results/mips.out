@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:22 2022
+
+
+ Performance counter stats for './mips':
+
+            19,376      cache-misses                                                
+          8,11,839      instructions              #    0.68  insn per cycle         
+             5,378      branch-misses             #    0.00% of all branches        
+          8,21,808      ref-cycles                                                  
+         11,88,310      cpu-cycles                                                  
+                57      page-faults                                                 
+             1,729      LLC-load-misses                                             
+            13,837      L1-dcache-load-misses                                       
+     <not counted>      branches                                                      (0.00%)
+
+       0.000758176 seconds time elapsed
+
+       0.000863000 seconds user
+       0.000000000 seconds sys
+
+

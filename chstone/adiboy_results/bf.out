@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:21 2022
+
+
+ Performance counter stats for './bf':
+
+            11,274      cache-misses                                                
+         18,81,675      instructions              #    1.39  insn per cycle         
+             5,332      branch-misses             #    0.00% of all branches        
+          8,90,344      ref-cycles                                                  
+         13,52,389      cpu-cycles                                                  
+                60      page-faults                                                 
+               804      LLC-load-misses                                             
+            14,963      L1-dcache-load-misses                                       
+     <not counted>      branches                                                      (0.00%)
+
+       0.000606452 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000636000 seconds sys
+
+

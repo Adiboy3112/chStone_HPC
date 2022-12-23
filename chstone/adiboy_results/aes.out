@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:21 2022
+
+
+ Performance counter stats for './aes':
+
+            14,055      cache-misses                                                  (69.84%)
+          9,40,583      instructions              #    0.95  insn per cycle         
+             6,554      branch-misses             #    3.02% of all branches        
+          6,70,800      ref-cycles                                                  
+          9,92,157      cpu-cycles                                                  
+                59      page-faults                                                 
+             1,076      LLC-load-misses                                             
+            14,443      L1-dcache-load-misses                                       
+          2,17,200      branches                                                      (30.16%)
+
+       0.000527992 seconds time elapsed
+
+       0.000590000 seconds user
+       0.000000000 seconds sys
+
+

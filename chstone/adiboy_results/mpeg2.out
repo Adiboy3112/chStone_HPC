@@ -1,0 +1,21 @@
+# started on Sat Dec 24 02:46:22 2022
+
+
+ Performance counter stats for './mpeg2':
+
+             9,935      cache-misses                                                
+          8,24,119      instructions              #    0.96  insn per cycle         
+             5,236      branch-misses             #    0.00% of all branches        
+          5,99,040      ref-cycles                                                  
+          8,62,002      cpu-cycles                                                  
+                58      page-faults                                                 
+               770      LLC-load-misses                                             
+            13,709      L1-dcache-load-misses                                       
+     <not counted>      branches                                                      (0.00%)
+
+       0.000482270 seconds time elapsed
+
+       0.000545000 seconds user
+       0.000000000 seconds sys
+
+

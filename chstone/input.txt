@@ -1,2 +1,12 @@
+adpcm
 aes
+bf
+dfadd
+dfdiv
+dfmul
+dfsin
 gsm
+jpeg
+mips
+mpeg2 
+sha_driver
