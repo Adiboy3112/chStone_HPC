@@ -12,17 +12,36 @@ The `perf` tool is a Linux utility that can be used to collect and analyze data 
 
 ## Steps
 
-1. Install the chStone Benchmark suite on your system.
-2. Install the `perf` tool.
-3. Run the chStone Benchmark suite using the `perf` tool to collect data from hardware performance counters.
-   - For example: ` `
-4. Analyze the collected data to identify areas for optimization and compare the performance of different systems.
 
-## Examples
+1. Clone the repository to your local machine
 
-- To measure the number of instructions executed by the chStone Benchmark suite: `perf stat -e instructions chstone-all`
-- To measure the number of cache misses: `perf stat -e cache-misses chstone-all`
-- To measure the number of branch mispredictions: `perf stat -e branch-mispredictions chstone-all`
+
+   git clone https://github.com/Adiboy3112/chStone_HPC.git
+
+
+2. change directory
+
+   cd chstone
+
+3. Run the script
+
+   ./stat.sh
+
+4. Your results will be saved in a folder with name `username_result` where username is your username.
+
+Note: My results are saved in a folder adiboy_results
+
+## Hardware Events considered for benchmark
+
+- cache-misses
+- instructions 
+- branch-misses
+- ref-cycles
+- cpu-cycles
+- page-faults
+- LLC-load-misses
+- L1-dcache-load-misses
+- branches
 
 ## Resources
 
