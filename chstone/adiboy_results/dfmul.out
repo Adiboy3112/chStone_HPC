@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './dfmul':
 
-            12,703      cache-misses                                                  (80.36%)
-          9,85,459      instructions              #    0.95  insn per cycle         
-             5,745      branch-misses             #    2.08% of all branches        
-          7,17,392      ref-cycles                                                  
-         10,32,270      cpu-cycles                                                  
-                60      page-faults                                                 
-               891      LLC-load-misses                                             
-            15,159      L1-dcache-load-misses                                       
-          2,76,180      branches                                                      (19.64%)
+         10,70,757      cpu-cycles                                                  
+          9,92,264      ref-cycles                                                  
+             1,507      LLC-load-misses                                             
+            14,462      L1-dcache-load-misses                                       
+            20,858      cache-misses                                                
 
-       0.000536239 seconds time elapsed
+       0.000794906 seconds time elapsed
 
-       0.000599000 seconds user
+       0.000868000 seconds user
        0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './dfmul':
+
+                58      page-faults                                                 
+          9,57,071      instructions                                                
+             5,667      branch-misses             #    2.88% of all branches        
+          1,96,545      branches                                                    
+
+       0.000784037 seconds time elapsed
+
+       0.000000000 seconds user
+       0.000892000 seconds sys
 
 

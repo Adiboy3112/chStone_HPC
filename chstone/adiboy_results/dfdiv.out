@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './dfdiv':
 
-            22,194      cache-misses                                                  (16.11%)
-         10,09,842      instructions              #    0.90  insn per cycle         
-             5,851      branch-misses             #    2.61% of all branches        
-          8,05,480      ref-cycles                                                  
-         11,24,405      cpu-cycles                                                  
-                60      page-faults                                                 
-             1,314      LLC-load-misses                                             
-            15,197      L1-dcache-load-misses                                       
-          2,24,149      branches                                                      (83.89%)
+         11,17,360      cpu-cycles                                                  
+          8,92,840      ref-cycles                                                  
+             1,319      LLC-load-misses                                             
+            14,940      L1-dcache-load-misses                                       
+            18,330      cache-misses                                                
 
-       0.000640550 seconds time elapsed
+       0.000721609 seconds time elapsed
 
-       0.000705000 seconds user
+       0.000760000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './dfdiv':
+
+                61      page-faults                                                 
+         10,13,761      instructions                                                
+             5,775      branch-misses             #    2.77% of all branches        
+          2,08,328      branches                                                    
+
+       0.000773013 seconds time elapsed
+
+       0.000844000 seconds user
        0.000000000 seconds sys
 
 

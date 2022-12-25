@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './gsm':
 
-            14,306      cache-misses                                                
-          8,44,719      instructions              #    0.92  insn per cycle         
-             5,461      branch-misses             #    0.00% of all branches        
-          6,52,808      ref-cycles                                                  
-          9,13,363      cpu-cycles                                                  
+          8,70,112      cpu-cycles                                                  
+          7,50,672      ref-cycles                                                  
+               807      LLC-load-misses                                             
+            13,649      L1-dcache-load-misses                                       
+            10,900      cache-misses                                                
+
+       0.000601024 seconds time elapsed
+
+       0.000679000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './gsm':
+
                 58      page-faults                                                 
-             1,180      LLC-load-misses                                             
-            13,647      L1-dcache-load-misses                                       
-     <not counted>      branches                                                      (0.00%)
+          8,46,207      instructions                                                
+             5,412      branch-misses             #    3.39% of all branches        
+          1,59,458      branches                                                    
 
-       0.000534211 seconds time elapsed
+       0.000650067 seconds time elapsed
 
-       0.000604000 seconds user
+       0.000691000 seconds user
        0.000000000 seconds sys
 
 

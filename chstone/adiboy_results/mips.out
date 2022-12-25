@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './mips':
 
-            19,376      cache-misses                                                
-          8,11,839      instructions              #    0.68  insn per cycle         
-             5,378      branch-misses             #    0.00% of all branches        
-          8,21,808      ref-cycles                                                  
-         11,88,310      cpu-cycles                                                  
-                57      page-faults                                                 
-             1,729      LLC-load-misses                                             
-            13,837      L1-dcache-load-misses                                       
-     <not counted>      branches                                                      (0.00%)
+          9,19,338      cpu-cycles                                                  
+          7,81,976      ref-cycles                                                  
+             1,401      LLC-load-misses                                             
+            13,557      L1-dcache-load-misses                                       
+            20,098      cache-misses                                                
 
-       0.000758176 seconds time elapsed
+       0.000737660 seconds time elapsed
 
-       0.000863000 seconds user
+       0.000778000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './mips':
+
+                58      page-faults                                                 
+          8,19,659      instructions                                                
+             5,227      branch-misses             #    3.32% of all branches        
+          1,57,207      branches                                                    
+
+       0.000759239 seconds time elapsed
+
+       0.000837000 seconds user
        0.000000000 seconds sys
 
 

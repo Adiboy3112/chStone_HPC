@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './jpeg':
 
-            19,426      cache-misses                                                
-         56,44,954      instructions              #    1.51  insn per cycle         
-            26,709      branch-misses             #    0.00% of all branches        
-         28,75,288      ref-cycles                                                  
-         37,46,716      cpu-cycles                                                  
-                69      page-faults                                                 
-             1,420      LLC-load-misses                                             
-            18,935      L1-dcache-load-misses                                       
-     <not counted>      branches                                                      (0.00%)
+         34,76,288      cpu-cycles                                                  
+         32,78,600      ref-cycles                                                  
+             1,276      LLC-load-misses                                             
+            17,753      L1-dcache-load-misses                                       
+            17,769      cache-misses                                                
 
-       0.001498152 seconds time elapsed
+       0.001703010 seconds time elapsed
 
-       0.000000000 seconds user
-       0.001533000 seconds sys
+       0.001850000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './jpeg':
+
+                65      page-faults                                                 
+         56,16,142      instructions                                                
+            26,413      branch-misses             #    3.97% of all branches        
+          6,64,867      branches                                                    
+
+       0.001669012 seconds time elapsed
+
+       0.001756000 seconds user
+       0.000000000 seconds sys
 
 

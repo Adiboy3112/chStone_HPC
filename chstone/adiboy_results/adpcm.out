@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:21 2022
+# started on Sun Dec 25 16:12:56 2022
 
 
  Performance counter stats for './adpcm':
 
-            20,546      cache-misses                                                
-          9,75,718      instructions              #    1.03  insn per cycle         
-             5,515      branch-misses             #    0.00% of all branches        
-         23,72,448      ref-cycles                                                  
-          9,48,274      cpu-cycles                                                  
-                57      page-faults                                                 
-             1,553      LLC-load-misses                                             
-            12,740      L1-dcache-load-misses                                       
-     <not counted>      branches                                                      (0.00%)
+          9,01,128      cpu-cycles                                                  
+         25,05,048      ref-cycles                                                  
+             1,535      LLC-load-misses                                             
+            12,144      L1-dcache-load-misses                                       
+            21,222      cache-misses                                                
 
-       0.001908199 seconds time elapsed
+       0.001990228 seconds time elapsed
 
-       0.001858000 seconds user
+       0.001956000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:56 2022
+
+
+ Performance counter stats for './adpcm':
+
+                58      page-faults                                                 
+          9,74,641      instructions                                                
+             5,363      branch-misses             #    3.20% of all branches        
+          1,67,729      branches                                                    
+
+       0.000725321 seconds time elapsed
+
+       0.000814000 seconds user
        0.000000000 seconds sys
 
 

@@ -1,21 +1,33 @@
-# started on Sat Dec 24 02:46:22 2022
+# started on Sun Dec 25 16:12:57 2022
 
 
  Performance counter stats for './dfsin':
 
-            10,820      cache-misses                                                
-         14,01,046      instructions              #    1.05  insn per cycle         
-             6,737      branch-misses             #    0.00% of all branches        
-         10,12,544      ref-cycles                                                  
-         13,35,532      cpu-cycles                                                  
-                59      page-faults                                                 
-               764      LLC-load-misses                                             
-            16,409      L1-dcache-load-misses                                       
-     <not counted>      branches                                                      (0.00%)
+         12,51,923      cpu-cycles                                                  
+         10,10,256      ref-cycles                                                  
+             1,165      LLC-load-misses                                             
+            15,275      L1-dcache-load-misses                                       
+            14,952      cache-misses                                                
 
-       0.000658373 seconds time elapsed
+       0.000692890 seconds time elapsed
 
-       0.000000000 seconds user
-       0.000703000 seconds sys
+       0.000763000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun Dec 25 16:12:57 2022
+
+
+ Performance counter stats for './dfsin':
+
+                60      page-faults                                                 
+         13,89,659      instructions                                                
+             6,852      branch-misses             #    2.61% of all branches        
+          2,62,364      branches                                                    
+
+       0.000909436 seconds time elapsed
+
+       0.001016000 seconds user
+       0.000000000 seconds sys
 
 
