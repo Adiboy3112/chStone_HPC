@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:02 2022
+# started on Tue Dec 27 01:49:33 2022
 
 
  Performance counter stats for './adpcm':
 
-          9,21,143      cpu-cycles                                                  
-         23,04,536      ref-cycles                                                  
-             1,592      LLC-load-misses                                             
-            12,027      L1-dcache-load-misses                                       
-            21,275      cache-misses                                                
+          8,61,072      cpu-cycles                                                  
+         26,92,768      ref-cycles                                                  
+             1,580      LLC-load-misses                                             
+            11,878      L1-dcache-load-misses                                       
+            20,605      cache-misses                                                
 
-       0.001848807 seconds time elapsed
+       0.002128331 seconds time elapsed
 
-       0.001817000 seconds user
+       0.002043000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 14:16:02 2022
+# started on Tue Dec 27 01:49:33 2022
 
 
  Performance counter stats for './adpcm':
 
                 58      page-faults                                                 
-          9,89,877      instructions                                                
-             5,331      branch-misses             #    3.13% of all branches        
-          1,70,401      branches                                                    
+          9,72,566      instructions                                                
+             5,376      branch-misses             #    3.21% of all branches        
+          1,67,507      branches                                                    
 
-       0.000568301 seconds time elapsed
+       0.000637890 seconds time elapsed
 
-       0.000638000 seconds user
+       0.000724000 seconds user
        0.000000000 seconds sys
 
 

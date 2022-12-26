@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './sha_driver':
 
-         14,53,417      cpu-cycles                                                  
-          8,65,800      ref-cycles                                                  
-             1,031      LLC-load-misses                                             
-            14,412      L1-dcache-load-misses                                       
-            13,565      cache-misses                                                
+         15,14,693      cpu-cycles                                                  
+          9,02,304      ref-cycles                                                  
+             1,478      LLC-load-misses                                             
+            13,936      L1-dcache-load-misses                                       
+            19,249      cache-misses                                                
 
-       0.000576069 seconds time elapsed
+       0.000669086 seconds time elapsed
 
-       0.000635000 seconds user
+       0.000737000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './sha_driver':
 
-                58      page-faults                                                 
-         20,61,842      instructions                                                
-             5,140      branch-misses             #    2.52% of all branches        
-          2,03,726      branches                                                    
+                59      page-faults                                                 
+         20,63,168      instructions                                                
+             5,292      branch-misses             #    2.59% of all branches        
+          2,04,612      branches                                                    
 
-       0.000582418 seconds time elapsed
+       0.000591792 seconds time elapsed
 
-       0.000646000 seconds user
+       0.000656000 seconds user
        0.000000000 seconds sys
 
 

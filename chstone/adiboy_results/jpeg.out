@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './jpeg':
 
-         38,84,843      cpu-cycles                                                  
-         23,14,104      ref-cycles                                                  
-               984      LLC-load-misses                                             
-            19,137      L1-dcache-load-misses                                       
-            12,162      cache-misses                                                
+         42,73,586      cpu-cycles                                                  
+         25,45,608      ref-cycles                                                  
+             2,027      LLC-load-misses                                             
+            23,142      L1-dcache-load-misses                                       
+            21,902      cache-misses                                                
 
-       0.001139025 seconds time elapsed
+       0.001455889 seconds time elapsed
 
-       0.001198000 seconds user
-       0.000000000 seconds sys
+       0.000000000 seconds user
+       0.001501000 seconds sys
 
 
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './jpeg':
 
-                68      page-faults                                                 
-         56,31,053      instructions                                                
-            25,673      branch-misses             #    3.84% of all branches        
-          6,68,515      branches                                                    
+                67      page-faults                                                 
+         56,21,685      instructions                                                
+            26,438      branch-misses             #    3.97% of all branches        
+          6,66,488      branches                                                    
 
-       0.001196060 seconds time elapsed
+       0.001252580 seconds time elapsed
 
-       0.001229000 seconds user
+       0.001317000 seconds user
        0.000000000 seconds sys
 
 

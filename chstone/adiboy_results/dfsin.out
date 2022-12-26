@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:33 2022
 
 
  Performance counter stats for './dfsin':
 
-         14,00,967      cpu-cycles                                                  
-          8,34,496      ref-cycles                                                  
-             1,025      LLC-load-misses                                             
-            16,922      L1-dcache-load-misses                                       
-            12,315      cache-misses                                                
+         15,34,135      cpu-cycles                                                  
+          9,13,952      ref-cycles                                                  
+             1,518      LLC-load-misses                                             
+            15,811      L1-dcache-load-misses                                       
+            21,016      cache-misses                                                
 
-       0.000581800 seconds time elapsed
-
-       0.000638000 seconds user
-       0.000000000 seconds sys
-
-
-# started on Mon Dec 26 14:16:03 2022
-
-
- Performance counter stats for './dfsin':
-
-                58      page-faults                                                 
-         14,60,476      instructions                                                
-             7,090      branch-misses             #    2.59% of all branches        
-          2,74,015      branches                                                    
-
-       0.000711518 seconds time elapsed
+       0.000737032 seconds time elapsed
 
        0.000000000 seconds user
-       0.000724000 seconds sys
+       0.000787000 seconds sys
+
+
+# started on Tue Dec 27 01:49:33 2022
+
+
+ Performance counter stats for './dfsin':
+
+                59      page-faults                                                 
+         13,92,662      instructions                                                
+             6,585      branch-misses             #    2.51% of all branches        
+          2,62,588      branches                                                    
+
+       0.000545560 seconds time elapsed
+
+       0.000615000 seconds user
+       0.000000000 seconds sys
 
 

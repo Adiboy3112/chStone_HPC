@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:02 2022
+# started on Tue Dec 27 01:49:33 2022
 
 
  Performance counter stats for './aes':
 
-         10,01,711      cpu-cycles                                                  
-          5,96,648      ref-cycles                                                  
-               965      LLC-load-misses                                             
-            14,101      L1-dcache-load-misses                                       
-            12,204      cache-misses                                                
+         10,71,657      cpu-cycles                                                  
+          6,38,352      ref-cycles                                                  
+             1,387      LLC-load-misses                                             
+            14,064      L1-dcache-load-misses                                       
+            18,045      cache-misses                                                
 
-       0.000459323 seconds time elapsed
+       0.000535654 seconds time elapsed
 
-       0.000526000 seconds user
+       0.000601000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 14:16:02 2022
+# started on Tue Dec 27 01:49:33 2022
 
 
  Performance counter stats for './aes':
 
-                59      page-faults                                                 
-          9,31,645      instructions                                                
-             6,788      branch-misses             #    4.02% of all branches        
-          1,68,846      branches                                                    
+                58      page-faults                                                 
+          9,26,638      instructions                                                
+             6,457      branch-misses             #    3.85% of all branches        
+          1,67,515      branches                                                    
 
-       0.000558813 seconds time elapsed
+       0.000588976 seconds time elapsed
 
-       0.000590000 seconds user
+       0.000659000 seconds user
        0.000000000 seconds sys
 
 

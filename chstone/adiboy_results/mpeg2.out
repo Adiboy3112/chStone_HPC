@@ -1,33 +1,33 @@
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './mpeg2':
 
-          8,33,869      cpu-cycles                                                  
-         23,17,952      ref-cycles                                                  
-             1,497      LLC-load-misses                                             
-            12,234      L1-dcache-load-misses                                       
-            20,230      cache-misses                                                
+          9,56,748      cpu-cycles                                                  
+          5,69,920      ref-cycles                                                  
+             1,281      LLC-load-misses                                             
+            13,699      L1-dcache-load-misses                                       
+            16,883      cache-misses                                                
 
-       0.001900971 seconds time elapsed
+       0.000462787 seconds time elapsed
 
-       0.001857000 seconds user
+       0.000532000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 14:16:03 2022
+# started on Tue Dec 27 01:49:34 2022
 
 
  Performance counter stats for './mpeg2':
 
                 58      page-faults                                                 
-          8,06,516      instructions                                                
-             5,127      branch-misses             #    3.31% of all branches        
-          1,54,723      branches                                                    
+          8,16,920      instructions                                                
+             5,113      branch-misses             #    3.26% of all branches        
+          1,56,745      branches                                                    
 
-       0.000632911 seconds time elapsed
+       0.000848429 seconds time elapsed
 
-       0.000717000 seconds user
+       0.000867000 seconds user
        0.000000000 seconds sys
 
 

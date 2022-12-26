@@ -1,0 +1,2 @@
+Workload|run-time|cpu-cycles|instructions|ref-cycles|page-faults|branches|branch-misses|LLC-load-misses|L1-dcache-load-misses|cache-misses
+------------------------------------------------------------------------------------------------------------------------------------------
