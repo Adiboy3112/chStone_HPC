@@ -1,33 +1,33 @@
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './gsm':
 
-          8,70,112      cpu-cycles                                                  
-          7,50,672      ref-cycles                                                  
-               807      LLC-load-misses                                             
-            13,649      L1-dcache-load-misses                                       
-            10,900      cache-misses                                                
+          9,84,069      cpu-cycles                                                  
+          5,86,248      ref-cycles                                                  
+             1,310      LLC-load-misses                                             
+            13,788      L1-dcache-load-misses                                       
+            16,706      cache-misses                                                
 
-       0.000601024 seconds time elapsed
+       0.000482903 seconds time elapsed
 
-       0.000679000 seconds user
+       0.000542000 seconds user
        0.000000000 seconds sys
 
 
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './gsm':
 
-                58      page-faults                                                 
-          8,46,207      instructions                                                
-             5,412      branch-misses             #    3.39% of all branches        
-          1,59,458      branches                                                    
+                59      page-faults                                                 
+          8,28,733      instructions                                                
+             5,431      branch-misses             #    3.47% of all branches        
+          1,56,350      branches                                                    
 
-       0.000650067 seconds time elapsed
+       0.000675649 seconds time elapsed
 
-       0.000691000 seconds user
+       0.000776000 seconds user
        0.000000000 seconds sys
 
 

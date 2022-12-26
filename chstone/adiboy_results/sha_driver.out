@@ -1,33 +1,33 @@
-# started on Sun Dec 25 16:12:58 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './sha_driver':
 
-         14,21,974      cpu-cycles                                                  
-         11,94,648      ref-cycles                                                  
-             1,332      LLC-load-misses                                             
-            14,013      L1-dcache-load-misses                                       
-            17,243      cache-misses                                                
+         14,95,396      cpu-cycles                                                  
+          8,90,656      ref-cycles                                                  
+             1,115      LLC-load-misses                                             
+            14,143      L1-dcache-load-misses                                       
+            13,207      cache-misses                                                
 
-       0.000842553 seconds time elapsed
+       0.000581596 seconds time elapsed
 
-       0.000914000 seconds user
+       0.000648000 seconds user
        0.000000000 seconds sys
 
 
-# started on Sun Dec 25 16:12:58 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './sha_driver':
 
                 58      page-faults                                                 
-         20,62,412      instructions                                                
-             5,204      branch-misses             #    2.55% of all branches        
-          2,03,938      branches                                                    
+         20,59,529      instructions                                                
+             5,268      branch-misses             #    2.59% of all branches        
+          2,03,720      branches                                                    
 
-       0.000834670 seconds time elapsed
+       0.000569663 seconds time elapsed
 
-       0.000000000 seconds user
-       0.000892000 seconds sys
+       0.000632000 seconds user
+       0.000000000 seconds sys
 
 

@@ -1,33 +1,33 @@
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './mpeg2':
 
-          8,98,990      cpu-cycles                                                  
-          7,25,504      ref-cycles                                                  
-             1,274      LLC-load-misses                                             
-            13,837      L1-dcache-load-misses                                       
-            17,075      cache-misses                                                
+          9,19,883      cpu-cycles                                                  
+          5,47,976      ref-cycles                                                  
+             1,069      LLC-load-misses                                             
+            13,709      L1-dcache-load-misses                                       
+            13,102      cache-misses                                                
 
-       0.000587947 seconds time elapsed
+       0.000463522 seconds time elapsed
 
-       0.000666000 seconds user
+       0.000517000 seconds user
        0.000000000 seconds sys
 
 
-# started on Sun Dec 25 16:12:58 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './mpeg2':
 
-                58      page-faults                                                 
-          8,15,033      instructions                                                
-             5,298      branch-misses             #    3.40% of all branches        
-          1,55,822      branches                                                    
+                57      page-faults                                                 
+          8,08,496      instructions                                                
+             5,218      branch-misses             #    3.36% of all branches        
+          1,55,206      branches                                                    
 
-       0.000752093 seconds time elapsed
+       0.000494182 seconds time elapsed
 
-       0.000841000 seconds user
+       0.000556000 seconds user
        0.000000000 seconds sys
 
 

@@ -1,33 +1,33 @@
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:12 2022
 
 
  Performance counter stats for './bf':
 
-         13,22,044      cpu-cycles                                                  
-         11,61,888      ref-cycles                                                  
-               824      LLC-load-misses                                             
-            14,535      L1-dcache-load-misses                                       
-            11,990      cache-misses                                                
+         13,97,247      cpu-cycles                                                  
+          8,32,312      ref-cycles                                                  
+             1,038      LLC-load-misses                                             
+            14,659      L1-dcache-load-misses                                       
+            13,528      cache-misses                                                
 
-       0.000783424 seconds time elapsed
+       0.000564752 seconds time elapsed
 
-       0.000843000 seconds user
+       0.000626000 seconds user
        0.000000000 seconds sys
 
 
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:12 2022
 
 
  Performance counter stats for './bf':
 
-                62      page-faults                                                 
-         18,87,732      instructions                                                
-             5,347      branch-misses             #    2.77% of all branches        
-          1,93,138      branches                                                    
+                60      page-faults                                                 
+         18,75,604      instructions                                                
+             5,387      branch-misses             #    2.83% of all branches        
+          1,90,401      branches                                                    
 
-       0.000828197 seconds time elapsed
+       0.000583996 seconds time elapsed
 
-       0.000877000 seconds user
+       0.000696000 seconds user
        0.000000000 seconds sys
 
 

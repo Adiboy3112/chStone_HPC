@@ -1,33 +1,33 @@
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './mips':
 
-          9,19,338      cpu-cycles                                                  
-          7,81,976      ref-cycles                                                  
-             1,401      LLC-load-misses                                             
-            13,557      L1-dcache-load-misses                                       
-            20,098      cache-misses                                                
+          8,93,165      cpu-cycles                                                  
+          5,32,064      ref-cycles                                                  
+               938      LLC-load-misses                                             
+            13,872      L1-dcache-load-misses                                       
+            11,615      cache-misses                                                
 
-       0.000737660 seconds time elapsed
+       0.000442003 seconds time elapsed
 
-       0.000778000 seconds user
+       0.000501000 seconds user
        0.000000000 seconds sys
 
 
-# started on Sun Dec 25 16:12:57 2022
+# started on Mon Dec 26 00:58:13 2022
 
 
  Performance counter stats for './mips':
 
-                58      page-faults                                                 
-          8,19,659      instructions                                                
-             5,227      branch-misses             #    3.32% of all branches        
-          1,57,207      branches                                                    
+                61      page-faults                                                 
+          8,50,516      instructions                                                
+             5,384      branch-misses             #    3.30% of all branches        
+          1,63,394      branches                                                    
 
-       0.000759239 seconds time elapsed
+       0.000482719 seconds time elapsed
 
-       0.000837000 seconds user
+       0.000554000 seconds user
        0.000000000 seconds sys
 
 
