@@ -1,33 +1,33 @@
-# started on Mon Dec 26 00:58:13 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfmul':
 
-         10,78,891      cpu-cycles                                                  
-          6,42,616      ref-cycles                                                  
-               895      LLC-load-misses                                             
-            14,747      L1-dcache-load-misses                                       
-            10,995      cache-misses                                                
+         10,92,314      cpu-cycles                                                  
+          6,50,624      ref-cycles                                                  
+             1,309      LLC-load-misses                                             
+            14,933      L1-dcache-load-misses                                       
+            15,845      cache-misses                                                
 
-       0.000491610 seconds time elapsed
+       0.000509060 seconds time elapsed
 
-       0.000553000 seconds user
+       0.000587000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 00:58:13 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfmul':
 
-                60      page-faults                                                 
-          9,78,347      instructions                                                
-             5,727      branch-misses             #    2.85% of all branches        
-          2,00,760      branches                                                    
+                58      page-faults                                                 
+          9,67,428      instructions                                                
+             5,715      branch-misses             #    2.89% of all branches        
+          1,98,014      branches                                                    
 
-       0.000492705 seconds time elapsed
+       0.000495189 seconds time elapsed
 
-       0.000561000 seconds user
+       0.000559000 seconds user
        0.000000000 seconds sys
 
 

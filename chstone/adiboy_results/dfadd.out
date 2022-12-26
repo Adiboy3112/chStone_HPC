@@ -1,33 +1,33 @@
-# started on Mon Dec 26 00:58:12 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfadd':
 
-         11,68,115      cpu-cycles                                                  
-          6,95,864      ref-cycles                                                  
-             1,054      LLC-load-misses                                             
-            15,213      L1-dcache-load-misses                                       
-            13,382      cache-misses                                                
+         12,26,205      cpu-cycles                                                  
+          7,86,656      ref-cycles                                                  
+               944      LLC-load-misses                                             
+            15,968      L1-dcache-load-misses                                       
+            11,228      cache-misses                                                
 
-       0.000505130 seconds time elapsed
+       0.000548152 seconds time elapsed
 
-       0.000569000 seconds user
+       0.000609000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 00:58:12 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfadd':
 
                 59      page-faults                                                 
-         12,01,125      instructions                                                
-             6,225      branch-misses             #    2.42% of all branches        
-          2,56,849      branches                                                    
+         11,90,840      instructions                                                
+             6,434      branch-misses             #    2.52% of all branches        
+          2,54,925      branches                                                    
 
-       0.000563365 seconds time elapsed
+       0.000593858 seconds time elapsed
 
-       0.000629000 seconds user
+       0.000630000 seconds user
        0.000000000 seconds sys
 
 

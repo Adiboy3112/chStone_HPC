@@ -1,33 +1,33 @@
-# started on Mon Dec 26 00:58:12 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfdiv':
 
-         10,02,129      cpu-cycles                                                  
-          5,97,064      ref-cycles                                                  
-               822      LLC-load-misses                                             
-            14,661      L1-dcache-load-misses                                       
-            10,750      cache-misses                                                
+         10,67,781      cpu-cycles                                                  
+          6,36,064      ref-cycles                                                  
+               854      LLC-load-misses                                             
+            15,332      L1-dcache-load-misses                                       
+            10,483      cache-misses                                                
 
-       0.000459017 seconds time elapsed
+       0.000474195 seconds time elapsed
 
-       0.000519000 seconds user
+       0.000531000 seconds user
        0.000000000 seconds sys
 
 
-# started on Mon Dec 26 00:58:12 2022
+# started on Mon Dec 26 14:16:02 2022
 
 
  Performance counter stats for './dfdiv':
 
-                58      page-faults                                                 
-         10,26,950      instructions                                                
-             6,180      branch-misses             #    2.93% of all branches        
-          2,10,571      branches                                                    
+                57      page-faults                                                 
+          9,82,022      instructions                                                
+             5,715      branch-misses             #    2.84% of all branches        
+          2,01,420      branches                                                    
 
-       0.000525196 seconds time elapsed
+       0.000575342 seconds time elapsed
 
-       0.000000000 seconds user
-       0.000590000 seconds sys
+       0.000668000 seconds user
+       0.000000000 seconds sys
 
 
