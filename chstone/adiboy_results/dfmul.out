@@ -1,33 +1,33 @@
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './dfmul':
+ Performance counter stats for './run.sh 2 dfmul':
 
-         11,31,406      cpu-cycles                                                  
-          6,74,024      ref-cycles                                                  
-             1,366      LLC-load-misses                                             
-            14,862      L1-dcache-load-misses                                       
-            17,440      cache-misses                                                
+         63,61,420      cpu-cycles                                                  
+         37,30,896      ref-cycles                                                  
+             6,543      LLC-load-misses                                             
+            90,655      L1-dcache-load-misses                                       
+            78,888      cache-misses                                                
 
-       0.000507462 seconds time elapsed
+       0.001859395 seconds time elapsed
 
-       0.000569000 seconds user
+       0.001949000 seconds user
        0.000000000 seconds sys
 
 
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './dfmul':
+ Performance counter stats for './run.sh 2 dfmul':
 
-                60      page-faults                                                 
-          9,70,521      instructions                                                
-             5,540      branch-misses             #    2.79% of all branches        
-          1,98,709      branches                                                    
+               412      page-faults                                                 
+         59,08,558      instructions                                                
+            34,481      branch-misses             #    2.93% of all branches        
+         11,74,896      branches                                                    
 
-       0.000918859 seconds time elapsed
+       0.001787325 seconds time elapsed
 
-       0.000789000 seconds user
+       0.001847000 seconds user
        0.000000000 seconds sys
 
 

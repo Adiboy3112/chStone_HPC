@@ -1,33 +1,33 @@
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './dfdiv':
+ Performance counter stats for './run.sh 2 dfdiv':
 
-         12,30,800      cpu-cycles                                                  
-          7,33,824      ref-cycles                                                  
-             1,476      LLC-load-misses                                             
-            15,698      L1-dcache-load-misses                                       
-            15,450      cache-misses                                                
+         60,38,079      cpu-cycles                                                  
+         35,16,552      ref-cycles                                                  
+             5,652      LLC-load-misses                                             
+            88,533      L1-dcache-load-misses                                       
+            66,902      cache-misses                                                
 
-       0.000554588 seconds time elapsed
+       0.001903919 seconds time elapsed
 
-       0.000625000 seconds user
+       0.001948000 seconds user
        0.000000000 seconds sys
 
 
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './dfdiv':
+ Performance counter stats for './run.sh 2 dfdiv':
 
-                60      page-faults                                                 
-         10,09,048      instructions                                                
-             5,977      branch-misses             #    2.89% of all branches        
-          2,06,787      branches                                                    
+               413      page-faults                                                 
+         59,80,546      instructions                                                
+            33,321      branch-misses             #    2.80% of all branches        
+         11,88,455      branches                                                    
 
-       0.000910769 seconds time elapsed
+       0.001809213 seconds time elapsed
 
-       0.000952000 seconds user
-       0.000000000 seconds sys
+       0.000754000 seconds user
+       0.001160000 seconds sys
 
 

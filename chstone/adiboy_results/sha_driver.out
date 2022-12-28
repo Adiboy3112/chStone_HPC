@@ -1,33 +1,33 @@
-# started on Tue Dec 27 01:49:34 2022
+# started on Wed Dec 28 12:09:03 2022
 
 
- Performance counter stats for './sha_driver':
+ Performance counter stats for './run.sh 2 sha_driver':
 
-         15,14,693      cpu-cycles                                                  
-          9,02,304      ref-cycles                                                  
-             1,478      LLC-load-misses                                             
-            13,936      L1-dcache-load-misses                                       
-            19,249      cache-misses                                                
+         69,20,305      cpu-cycles                                                  
+         40,28,232      ref-cycles                                                  
+             5,045      LLC-load-misses                                             
+            91,428      L1-dcache-load-misses                                       
+            62,397      cache-misses                                                
 
-       0.000669086 seconds time elapsed
+       0.002036371 seconds time elapsed
 
-       0.000737000 seconds user
-       0.000000000 seconds sys
-
-
-# started on Tue Dec 27 01:49:34 2022
+       0.001536000 seconds user
+       0.000459000 seconds sys
 
 
- Performance counter stats for './sha_driver':
+# started on Wed Dec 28 12:09:03 2022
 
-                59      page-faults                                                 
-         20,63,168      instructions                                                
-             5,292      branch-misses             #    2.59% of all branches        
-          2,04,612      branches                                                    
 
-       0.000591792 seconds time elapsed
+ Performance counter stats for './run.sh 2 sha_driver':
 
-       0.000656000 seconds user
-       0.000000000 seconds sys
+               415      page-faults                                                 
+         81,59,341      instructions                                                
+            33,243      branch-misses             #    2.78% of all branches        
+         11,95,831      branches                                                    
+
+       0.001999586 seconds time elapsed
+
+       0.001641000 seconds user
+       0.000435000 seconds sys
 
 

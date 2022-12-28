@@ -1,33 +1,33 @@
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:01 2022
 
 
- Performance counter stats for './adpcm':
+ Performance counter stats for './run.sh 2 adpcm':
 
-          8,61,072      cpu-cycles                                                  
-         26,92,768      ref-cycles                                                  
-             1,580      LLC-load-misses                                             
-            11,878      L1-dcache-load-misses                                       
-            20,605      cache-misses                                                
+         65,22,024      cpu-cycles                                                  
+         42,93,848      ref-cycles                                                  
+             6,438      LLC-load-misses                                             
+            96,009      L1-dcache-load-misses                                       
+            99,608      cache-misses                                                
 
-       0.002128331 seconds time elapsed
+       0.002257783 seconds time elapsed
 
-       0.002043000 seconds user
+       0.002270000 seconds user
        0.000000000 seconds sys
 
 
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:01 2022
 
 
- Performance counter stats for './adpcm':
+ Performance counter stats for './run.sh 2 adpcm':
 
-                58      page-faults                                                 
-          9,72,566      instructions                                                
-             5,376      branch-misses             #    3.21% of all branches        
-          1,67,507      branches                                                    
+               412      page-faults                                                 
+         59,55,716      instructions                                                
+            33,924      branch-misses             #    3.03% of all branches        
+         11,18,267      branches                                                    
 
-       0.000637890 seconds time elapsed
+       0.002463128 seconds time elapsed
 
-       0.000724000 seconds user
-       0.000000000 seconds sys
+       0.002121000 seconds user
+       0.000414000 seconds sys
 
 

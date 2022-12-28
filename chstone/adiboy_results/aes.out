@@ -1,33 +1,33 @@
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './aes':
+ Performance counter stats for './run.sh 2 aes':
 
-         10,71,657      cpu-cycles                                                  
-          6,38,352      ref-cycles                                                  
-             1,387      LLC-load-misses                                             
-            14,064      L1-dcache-load-misses                                       
-            18,045      cache-misses                                                
+         59,95,263      cpu-cycles                                                  
+         35,06,464      ref-cycles                                                  
+             4,194      LLC-load-misses                                             
+            92,954      L1-dcache-load-misses                                       
+            64,891      cache-misses                                                
 
-       0.000535654 seconds time elapsed
+       0.001747906 seconds time elapsed
 
-       0.000601000 seconds user
+       0.001844000 seconds user
        0.000000000 seconds sys
 
 
-# started on Tue Dec 27 01:49:33 2022
+# started on Wed Dec 28 12:09:02 2022
 
 
- Performance counter stats for './aes':
+ Performance counter stats for './run.sh 2 aes':
 
-                58      page-faults                                                 
-          9,26,638      instructions                                                
-             6,457      branch-misses             #    3.85% of all branches        
-          1,67,515      branches                                                    
+               411      page-faults                                                 
+         58,12,224      instructions                                                
+            35,396      branch-misses             #    3.19% of all branches        
+         11,08,847      branches                                                    
 
-       0.000588976 seconds time elapsed
+       0.001760640 seconds time elapsed
 
-       0.000659000 seconds user
+       0.001825000 seconds user
        0.000000000 seconds sys
 
 
