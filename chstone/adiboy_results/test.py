@@ -34,7 +34,7 @@ page_faults=int(parse_perf_output(output, "cache-misses"))
 instructions = int(parse_perf_output(output, "instructions"))
 branch_misses=int(parse_perf_output(output, "branch-misses"))
 branches=int(parse_perf_output(output, "branches"))
-run_time=1000*(parse_perf_output(output, "seconds time elapsed"))
+run_time=parse_perf_output(output, "seconds time elapsed")
 
 
 name, _ = filename.rsplit('.', 1)

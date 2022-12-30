@@ -1,33 +1,33 @@
-# started on Wed Dec 28 12:09:02 2022
+# started on Fri Dec 30 12:52:31 2022
 
 
- Performance counter stats for './run.sh 2 bf':
+ Performance counter stats for './run.sh 100 bf':
 
-         65,81,197      cpu-cycles                                                  
-         39,20,072      ref-cycles                                                  
-             4,394      LLC-load-misses                                             
-            89,582      L1-dcache-load-misses                                       
-            60,348      cache-misses                                                
+      20,22,27,262      cpu-cycles                                                  
+      12,02,34,192      ref-cycles                                                  
+            66,546      LLC-load-misses                                             
+         28,01,345      L1-dcache-load-misses                                       
+         11,32,972      cache-misses                                                
 
-       0.001866595 seconds time elapsed
+       0.048494652 seconds time elapsed
 
-       0.000847000 seconds user
-       0.001097000 seconds sys
-
-
-# started on Wed Dec 28 12:09:02 2022
+       0.040843000 seconds user
+       0.010038000 seconds sys
 
 
- Performance counter stats for './run.sh 2 bf':
+# started on Fri Dec 30 12:52:31 2022
 
-               418      page-faults                                                 
-         78,01,182      instructions                                                
-            33,006      branch-misses             #    2.81% of all branches        
-         11,72,650      branches                                                    
 
-       0.002033441 seconds time elapsed
+ Performance counter stats for './run.sh 100 bf':
 
-       0.000804000 seconds user
-       0.001283000 seconds sys
+            10,949      page-faults                                                 
+      24,83,46,681      instructions                                                
+          6,03,784      branch-misses             #    1.95% of all branches        
+       3,09,58,528      branches                                                    
+
+       0.048499413 seconds time elapsed
+
+       0.043024000 seconds user
+       0.007619000 seconds sys
 
 
