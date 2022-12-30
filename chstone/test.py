@@ -23,7 +23,7 @@ filename = sys.argv[1]
 with open(filename, "r") as f:
     output = f.read()
 
-
+iter=sys.argv[2]
 
 cpu_cycles = int(parse_perf_output(output, "cpu-cycles"))
 ref_cycles=int(parse_perf_output(output, "ref-cycles"))
@@ -38,5 +38,5 @@ run_time=parse_perf_output(output, "seconds time elapsed")
 
 
 name, _ = filename.rsplit('.', 1)
-print(name,"|",run_time,"|",cpu_cycles,"|",instructions,"|",ref_cycles,"|",page_faults,"|",branches,"|",branch_misses,"|",LLC_load_misses,"|",L1_dcache_load_misses,"|",cache_misses)  
+print(name,"|",iter,"|",run_time,"|",cpu_cycles,"|",instructions,"|",ref_cycles,"|",page_faults,"|",branches,"|",branch_misses,"|",LLC_load_misses,"|",L1_dcache_load_misses,"|",cache_misses)  
 

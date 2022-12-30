@@ -1,33 +1,33 @@
-# started on Fri Dec 30 12:52:38 2022
+# started on Fri Dec 30 15:35:18 2022
 
 
- Performance counter stats for './run.sh 100 jpeg':
+ Performance counter stats for './run.sh 500 jpeg':
 
-      41,34,67,807      cpu-cycles                                                  
-      24,67,37,816      ref-cycles                                                  
-            34,787      LLC-load-misses                                             
-         31,62,314      L1-dcache-load-misses                                       
-          8,96,916      cache-misses                                                
+    2,07,56,23,321      cpu-cycles                                                  
+    1,27,80,79,608      ref-cycles                                                  
+          2,52,245      LLC-load-misses                                             
+       1,59,26,840      L1-dcache-load-misses                                       
+         52,18,049      cache-misses                                                
 
-       0.100395645 seconds time elapsed
+       0.519289693 seconds time elapsed
 
-       0.088800000 seconds user
-       0.013609000 seconds sys
-
-
-# started on Fri Dec 30 12:52:39 2022
+       0.464206000 seconds user
+       0.066388000 seconds sys
 
 
- Performance counter stats for './run.sh 100 jpeg':
+# started on Fri Dec 30 15:35:18 2022
 
-            11,858      page-faults                                                 
-      62,53,24,981      instructions                                                
-         28,01,476      branch-misses             #    3.55% of all branches        
-       7,89,77,466      branches                                                    
 
-       0.099942391 seconds time elapsed
+ Performance counter stats for './run.sh 500 jpeg':
 
-       0.087791000 seconds user
-       0.014306000 seconds sys
+            57,959      page-faults                                                 
+    3,11,13,33,041      instructions                                                
+       1,38,70,197      branch-misses             #    3.54% of all branches        
+      39,17,16,639      branches                                                    
+
+       0.536952478 seconds time elapsed
+
+       0.471309000 seconds user
+       0.078049000 seconds sys
 
 

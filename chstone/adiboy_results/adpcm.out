@@ -1,33 +1,33 @@
-# started on Fri Dec 30 12:52:28 2022
+# started on Fri Dec 30 15:33:12 2022
 
 
- Performance counter stats for './run.sh 100 adpcm':
+ Performance counter stats for './run.sh 500 adpcm':
 
-      14,20,43,891      cpu-cycles                                                  
-       8,42,70,264      ref-cycles                                                  
-            16,463      LLC-load-misses                                             
-         26,52,917      L1-dcache-load-misses                                       
-          5,45,811      cache-misses                                                
+      69,64,77,133      cpu-cycles                                                  
+      41,37,55,576      ref-cycles                                                  
+            55,617      LLC-load-misses                                             
+       1,34,16,126      L1-dcache-load-misses                                       
+         22,11,143      cache-misses                                                
 
-       0.034306054 seconds time elapsed
+       0.166805648 seconds time elapsed
 
-       0.028547000 seconds user
-       0.007747000 seconds sys
-
-
-# started on Fri Dec 30 12:52:29 2022
+       0.138882000 seconds user
+       0.038089000 seconds sys
 
 
- Performance counter stats for './run.sh 100 adpcm':
+# started on Fri Dec 30 15:33:12 2022
 
-            10,922      page-faults                                                 
-      16,01,94,373      instructions                                                
-          6,11,789      branch-misses             #    2.11% of all branches        
-       2,90,27,366      branches                                                    
 
-       0.034620461 seconds time elapsed
+ Performance counter stats for './run.sh 500 adpcm':
 
-       0.031036000 seconds user
-       0.005820000 seconds sys
+            53,941      page-faults                                                 
+      79,64,39,300      instructions                                                
+         28,08,742      branch-misses             #    1.95% of all branches        
+      14,39,99,318      branches                                                    
+
+       0.169810398 seconds time elapsed
+
+       0.146609000 seconds user
+       0.033494000 seconds sys
 
 

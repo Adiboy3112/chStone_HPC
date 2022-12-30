@@ -1,33 +1,33 @@
-# started on Fri Dec 30 12:52:37 2022
+# started on Fri Dec 30 15:34:48 2022
 
 
- Performance counter stats for './run.sh 100 gsm':
+ Performance counter stats for './run.sh 500 gsm':
 
-      13,90,87,479      cpu-cycles                                                  
-       8,19,90,792      ref-cycles                                                  
-            16,681      LLC-load-misses                                             
-         26,57,703      L1-dcache-load-misses                                       
-          5,63,250      cache-misses                                                
+      67,88,63,488      cpu-cycles                                                  
+      40,74,68,776      ref-cycles                                                  
+            86,616      LLC-load-misses                                             
+       1,33,84,408      L1-dcache-load-misses                                       
+         27,24,407      cache-misses                                                
 
-       0.033728773 seconds time elapsed
+       0.163849602 seconds time elapsed
 
-       0.033850000 seconds user
-       0.001688000 seconds sys
-
-
-# started on Fri Dec 30 12:52:37 2022
+       0.137427000 seconds user
+       0.036371000 seconds sys
 
 
- Performance counter stats for './run.sh 100 gsm':
+# started on Fri Dec 30 15:34:48 2022
 
-            10,744      page-faults                                                 
-      14,41,99,411      instructions                                                
-          5,95,341      branch-misses             #    2.16% of all branches        
-       2,76,00,644      branches                                                    
 
-       0.032231115 seconds time elapsed
+ Performance counter stats for './run.sh 500 gsm':
 
-       0.024807000 seconds user
-       0.009571000 seconds sys
+            55,416      page-faults                                                 
+      73,84,59,339      instructions                                                
+         27,82,152      branch-misses             #    1.97% of all branches        
+      14,14,01,363      branches                                                    
+
+       0.170671420 seconds time elapsed
+
+       0.144929000 seconds user
+       0.036707000 seconds sys
 
 

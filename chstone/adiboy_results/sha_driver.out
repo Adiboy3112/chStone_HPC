@@ -1,33 +1,33 @@
-# started on Fri Dec 30 12:52:42 2022
+# started on Fri Dec 30 15:35:59 2022
 
 
- Performance counter stats for './run.sh 100 sha_driver':
+ Performance counter stats for './run.sh 500 sha_driver':
 
-      24,91,96,845      cpu-cycles                                                  
-      15,18,38,752      ref-cycles                                                  
-          1,44,249      LLC-load-misses                                             
-         30,41,272      L1-dcache-load-misses                                       
-         15,60,167      cache-misses                                                
+      98,53,45,098      cpu-cycles                                                  
+      60,10,40,856      ref-cycles                                                  
+          2,49,861      LLC-load-misses                                             
+       1,35,95,762      L1-dcache-load-misses                                       
+         48,99,506      cache-misses                                                
 
-       0.071491124 seconds time elapsed
+       0.244546475 seconds time elapsed
 
-       0.047996000 seconds user
-       0.016095000 seconds sys
-
-
-# started on Fri Dec 30 12:52:42 2022
+       0.199561000 seconds user
+       0.056071000 seconds sys
 
 
- Performance counter stats for './run.sh 100 sha_driver':
+# started on Fri Dec 30 15:35:59 2022
 
-            11,187      page-faults                                                 
-      27,28,66,100      instructions                                                
-          6,35,018      branch-misses             #    1.90% of all branches        
-       3,34,62,338      branches                                                    
 
-       0.048839964 seconds time elapsed
+ Performance counter stats for './run.sh 500 sha_driver':
 
-       0.048687000 seconds user
-       0.002490000 seconds sys
+            54,554      page-faults                                                 
+    1,35,08,72,573      instructions                                                
+         29,11,353      branch-misses             #    1.77% of all branches        
+      16,44,05,940      branches                                                    
+
+       0.234018212 seconds time elapsed
+
+       0.202486000 seconds user
+       0.042093000 seconds sys
 
 
